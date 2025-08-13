@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shah Alam Molla | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <img src="images/profile.jpg" alt="My Photo">
-        <h2>About Me</h2>
-        <p>Hello! I’m a web developer passionate about creating beautiful, responsive websites.</p>
-    </section>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>Shah Alam Molla</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="images/Project1.jpg" alt="Project 1">
-            <h3>Project One</h3>
-            <p>Short description of my first project.</p>
-        </div>
-        <div class="project">
-            <img src="images/Project2.jpg" alt="Project 2">
-            <h3>Project Two</h3>
-            <p>Short description of my second project.</p>
-        </div>
-    </section>
+  <!-- About Section -->
+  <section id="about">
+    <img src="images/profile.jpg" alt="My Photo">
+    <h2>About Me</h2>
+    <p>Hello! I’m a web developer passionate about creating beautiful, responsive websites.</p>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: alampen1@gmail.com</p>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="images/Project1.jpg" alt="Project One">
+      <h3>Project One</h3>
+      <p>Short description of your first project.</p>
+      <a href="https://github.com/shahalammolla/project1" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <img src="images/Project2.jpg" alt="Project Two">
+      <h3>Project Two</h3>
+      <p>Short description of your second project.</p>
+      <a href="https://github.com/shahalammolla/project2" target="_blank">View on GitHub</a>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Md. Shah Alam Molla. All rights reserved.</p>
-    </footer>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:alampen1@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Shah Alam Molla</p>
+    <a href="https://github.com/shahalammolla" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/shahalammolla" target="_blank">LinkedIn</a>
+  </footer>
+
 </body>
 </html>
