@@ -75,10 +75,26 @@
   <!-- Dummy Data + JS -->
   <script>
     const books = [
-      { title: "প্যারাডক্সিক্যাল সাজিদ", desc: "একটি ভিন্নধর্মী চিন্তার বই", img: "https://via.placeholder.com/300x200?text=Book+1" },
-      { title: "আরজ আলী সমীপে", desc: "প্রশ্ন ও জবাবের অনন্য ভ্রমণ", img: "https://via.placeholder.com/300x200?text=Book+2" },
-      { title: "আবার সাজিদ", desc: "নতুন দৃষ্টিকোণ থেকে সাজিদ", img: "https://via.placeholder.com/300x200?text=Book+3" },
-    ];
+  { 
+    title: "প্যারাডক্সিক্যাল সাজিদ", 
+    desc: "একটি ভিন্নধর্মী চিন্তার বই", 
+    img: "https://via.placeholder.com/300x200?text=Book+1",
+    pdf: "book.pdf"   // এখানে তোমার PDF ফাইলের নাম দাও
+  },
+  { 
+    title: "আরজ আলী সমীপে", 
+    desc: "প্রশ্ন ও জবাবের অনন্য ভ্রমণ", 
+    img: "https://via.placeholder.com/300x200?text=Book+2",
+    pdf: "book.pdf"
+  },
+  { 
+    title: "আবার সাজিদ", 
+    desc: "নতুন দৃষ্টিকোণ থেকে সাজিদ", 
+    img: "https://via.placeholder.com/300x200?text=Book+3",
+    pdf: "book.pdf"
+  },
+];
+
 
     function renderBooks() {
   const container = document.getElementById("book-list");
